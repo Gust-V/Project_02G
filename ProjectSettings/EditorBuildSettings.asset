@@ -4,5 +4,20 @@
 EditorBuildSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 2
-  m_Scenes: []
+  m_Scenes:
+  - enabled: 1
+    path: Assets/Scenes/ScHome.unity
+    guid: 2cda990e2423bbf4892e6590ba056729
+  - enabled: 1
+    path: Assets/Scenes/ScBanheiro.unity
+    guid: a940ba14604f695439d44f9b61e766bf
+  - enabled: 1
+    path: Assets/Scenes/ScSala.unity
+    guid: 88e2c26c333d02b41a49358119233343
+  - enabled: 1
+    path: Assets/Scenes/ScQuarto.unity
+    guid: 44b5455551cfad2458330df9249b3d0b
+  - enabled: 1
+    path: Assets/Scenes/ScCozinha.unity
+    guid: 9e1dbeca5201ac64e9f241d4922b51f2
   m_configObjects: {}

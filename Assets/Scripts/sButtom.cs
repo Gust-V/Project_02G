@@ -16,7 +16,6 @@ public class sButtom : MonoBehaviour
         {
             string nameButton = EventSystem.current.currentSelectedGameObject.name;
 
-
             if (nameButton == "Bt00_Qt")
             {
                 SceneManager.LoadScene("ScQuarto");
@@ -34,10 +33,15 @@ public class sButtom : MonoBehaviour
                 SceneManager.LoadScene("ScCozinha");
             }
         }
-        else if (currentSceneName != "ScHome")
+        else if (currentSceneName != "ScHome" && currentSceneName != "ScMenuP")
         {
             SceneManager.LoadScene("ScHome");
         }
+        else if (currentSceneName == "ScMenuP")
+        {
+            SceneManager.LoadScene("ScHome");
+        }
+
 
     }
 }
